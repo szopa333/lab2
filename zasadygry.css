@@ -1,11 +1,3 @@
-@media screen and (min-width: 50px) {
-    #kontener { width:100%;
-	    padding:0:
-	}
-	
-        background-color: lightgreen;
-    }
-}
 
 body {
 background-image: url(piasek.jpg);
@@ -138,4 +130,29 @@ margin-top: 0.5cm;}
 #tresc, #menu_lewe
 {
 	display:table-cell;
+}
+
+@media screen and (min-width: 899px) 
+{
+    #kontener { width:100%;
+	    padding:0:
+	}
+	#naglowek { width:100%;
+	    padding:0:
+	}
+	#zdjecie { width:100%;
+	    padding:0:
+	}
+	#menu_gorne { width:100%;
+	    padding:0:
+	}
+#menu_lewe { width:100%;
+	    padding:0:
+	}
+#tresc { width:100%;
+	    padding:0:
+	}
+#stopka { width:100%;
+	    padding:0:
+	}
 }
