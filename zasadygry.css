@@ -1,0 +1,132 @@
+body {
+background-image: url(piasek.jpg);
+margin: 0;
+padding: 0;
+color: #45330C;
+font-size: 12px;
+font-family: Segoe UI Light Italic, Arial, Tahoma, sans-serif;
+width:100%;
+	
+}
+
+a {
+color: #3B2D0D;
+text-decoration: none;
+}
+
+.czysty {
+clear: both;
+}
+
+#kontener {
+max-width: 900px;
+margin: 5px auto;
+text-align: left;
+background: #faecdf;
+border: 1px solid #B59E6B;
+}
+
+#naglowek {
+background: #BFAA7A;
+border-bottom: 1px solid #B59E6B;
+}
+
+#zdjecie {
+margin: 0;
+padding: 0;
+}
+
+#menu_gorne {
+font-weight: bold;
+font-size: large;
+background: #D1BF97;
+border-bottom: 1px solid #B59E6B;
+padding: 0 10px;
+}
+
+#menu_gorne ul, #menu_gorne li {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#menu_gorne li {
+float: left;
+}
+
+#menu_gorne a {
+display: block;
+padding: 5px 10px;
+color: #faecdf;
+}
+
+
+#menu_lewe {
+border-right: 1px solid #B59E6B;
+width: 13%;
+height: 1030px;
+padding: 5px 10px;
+float: left;
+}
+
+#menu_lewe h3 {
+margin: 0;
+padding: 5px 0;
+font-size: 13px;
+}
+
+#menu_lewe ul, #menu_lewe li {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#menu_lewe li {
+padding: 2px 0;
+}
+
+#tresc {
+width: 734px;
+padding: 10px;
+}
+
+#tresc h2 {
+margin: 0;
+}
+
+#tresc p {
+margin: 0;
+padding: 5px 0;
+}
+
+#stopka {
+background: #D1BF97;
+text-align: center;
+padding: 5px 0;
+border-top: 1px solid #B59E6B;
+}
+
+#galeria { 
+margin-top: 1cm;
+margin-left: 1.5cm;
+padding: 2px 2px;}
+
+#galeria img { 
+margin-left: 1.5cm;
+padding: 5px 5px;
+background: #D1BF97;}
+
+#zestaw {float:left;
+border-bottom: 1px solid #B59E6B;
+margin-top: 0.5cm;}
+#zestaw td, #zestaw tr{text-align: center;}
+
+#test
+{
+	display:block;
+}
+
+#tresc, #menu_lewe
+{
+	display:table-cell;
+}
