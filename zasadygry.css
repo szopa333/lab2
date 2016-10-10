@@ -1,3 +1,9 @@
+@media screen and (min-width: 50px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
 body {
 background-image: url(piasek.jpg);
 margin: 0;
